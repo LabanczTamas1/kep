@@ -59,7 +59,7 @@ int main() {
 
 		Mat dx, dy;
 		Mat G, dest, deste;
-		Sobel(frame2, dx, CV_32F, 1, 0); //CV_32F – gyökvonás miatt
+		Sobel(frame2, dx, CV_32F, 1, 0); //CV_32F â€“ gyÃ¶kvonÃ¡s miatt
 		Sobel(frame2, dy, CV_32F, 0, 1);
 
 
